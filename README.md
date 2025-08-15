@@ -3,6 +3,7 @@ Implementation of P^2 Explore: Efficient Exploration in Unknown Clustered Enviro
 
 
 ## News
+- Jun. 16, 2025: P2 Explore is accepted by IROS 2025.
 - Feb. 26, 2025: P2 Explore is open-sourced.
 
 ## Overview
