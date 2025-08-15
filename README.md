@@ -52,6 +52,14 @@ You can run *3Pre_explore.ipynb* for evaluation.
 
 If you what to visulize the topology connectio between rooms during exploration, you can turn the `vis_flag` to True.
 
+To generate *node_dis_file*, you can change **dir_use**
+in
+```
+now_agent = agent(now_sim.agent_map,now_sim.pose,now_sim.map,node_path=node_path,dir_use=True)
+```
+to False in the first time.
+
+Except the first time, you can turn **dir_use** into True, and this script will run faster.
 
 # Code Overview
 We will introduce our code briefly. Some important files or functions are listed below
